@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+label {
+	width: 100px;
+	display: inline-block;
+}
+.container {
+	background-color: orange;
+	height: 400px;
+	width: 300px;
+	padding: 25px;
+}
+.ss {	
+position:relative;
+left:40%;
+border-radius:5px;
+padding:4px 10px;
+border:none;
+
+}
+.ss:hover {	
+position:relative;
+left:40%;
+border-radius:5px;
+padding:4px 10px;
+border:none;
+color:red;
+
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+		<h1 style="text-align:center" >Login Form</h1>
+		<br />
+
+		<form action="loginForm" method="post">
+			
+			<br /> <label>Email: </label><input type="email" name="email"><br />
+			<br /> <label>Password: </label><input type="password" name="pass"><br />
+			<br />
+			<button type="submit" class="ss">Login</button>
+		</form>
+	</div>
+
+</body>
+</html>
